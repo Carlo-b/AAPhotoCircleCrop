@@ -36,7 +36,7 @@ github "andreaantonioni/AAPhotoCircleCrop"
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Usage
-To show the cropper you have just to create a ```AACricleCropViewController``` view controller and pass it the image you want to crop.
+To show the cropper you just have to create a ```AACircleCropViewController``` view controller and pass the image you want to crop to it.
 ```swift
 let circleCropController = AACircleCropViewController()
 circleCropController.image = UIImage(named: "my_photo.jpg")!
@@ -69,7 +69,7 @@ circleCropController.imageSize = CGSize(width: 200, height: 200)
 ```
 
 ### Localization
-AAPhotoCircleCrop support localized strings. To get button titles localized, just sets a value to ```selectTitle``` and ```cancelTitle```
+AAPhotoCircleCrop supports localized strings. To get the button titles localized, just set the value of ```selectTitle``` and ```cancelTitle```
 ```swift
 // 🌎 use selectTitle and cancelTitle to localize buttons
 circleCropController.selectTitle = NSLocalizedString("select-button", comment: "Select")
@@ -78,7 +78,7 @@ circleCropController.cancelTitle = NSLocalizedString("cancel-button", comment: "
 
 
 ## Dependencies
-AAPhotoCircleCrop is base on [KACircleCropViewController](https://github.com/kekearif/KACircleCropViewController)
+AAPhotoCircleCrop is based on [KACircleCropViewController](https://github.com/kekearif/KACircleCropViewController)
 
 ## Author
 
